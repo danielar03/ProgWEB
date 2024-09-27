@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Cadastro</title>
+    <style>
+        h1, title {
+            border: 1px solid rgb(240, 85, 111); 
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Formulário de Cadastro</h1>
+
+    <form>
+        <H2><label for="nome">NOME:</label>
+        <input type="text" id="nome" required>
+        <br> <!-- PULAR PARA A PRÓXIMA LINHA --></H2>
+
+        <H2><label for="data-nascimento">DATA NASCIMENTO:</label>
+        <input type="text" id="data-nascimento" placeholder="DD/MM/AAAA" required> <!-- Campo de texto simples para a data -->
+        <br> <!-- PULAR PARA A PRÓXIMA LINHA --></H2>
+
+        <H2><label for="email">EMAIL:</label>
+        <input type="email" id="e-mail" required>
+        <br> <!-- PULAR PARA A PRÓXIMA LINHA --></H2>
+
+        <H2><label for="estado">ESTADO:</label>
+        <select id="estado" required>
+            <option value="">SELECIONE UM ESTADO</option>
+            <option value="PR">Paraná</option>
+            <option value="RS">Rio Grande do Sul</option>
+            <option value="SC">Santa Catarina</option>
+        </select>
+
+        <button type="submit">CADASTRAR</button>
+    </form></H2>
+
+</body>
+</html>
